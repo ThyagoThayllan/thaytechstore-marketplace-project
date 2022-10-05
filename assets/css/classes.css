@@ -1,0 +1,38 @@
+.main-bg {
+    background-image: url('/landing-page/assets/img/background.png');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.white-bg {
+    background: white;
+    color: black;
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+.menu-espaco {
+    height: 65px;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
